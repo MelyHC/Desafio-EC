@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Estándar",
+    "price": 29,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius lobortis auctor. Vivamus condimentum, lorem eget sagittis luctus, libero nibh vulputate lorem, ut interdum tortor tellus et felis. Nam cursus ac urna hendrerit ultricies. Cras vel tincidunt urna.",
+    "pack": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "type": "Premium",
+    "price": 59,
+    "description": "Vivamus pellentesque in lectus eget tincidunt. Integer rhoncus magna imperdiet lacus malesuada, eu aliquam leo vulputate. Pellentesque diam nisi, porttitor nec ultrices vel, tincidunt eu ipsum. Sed finibus odio et nisl venenatis viverra. Donec elit mauris, efficitur non porta quis, tempus quis sapien.Nulla lorem lacus, luctus quis arcu id, bibendum luctus nulla.",
+    "pack": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+]

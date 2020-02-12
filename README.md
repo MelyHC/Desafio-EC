@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafío Frontend
+Bienvenido(a) al desafío Frontend para ser parte de EC, esperamos que lo realices para poder tenerte pronto en nuestras oficinas. 🔥🎉
 
-## Available Scripts
+## Contexto
+Hace algún tiempo hemos comenzado con la transformación digital y se han presentado varias iniciativas de proyectos, han sido tantas que necesitamos de profesionales como tú para ayudarnos con algunos de ellos. Uno de los proyectos, y en el que necesitamos tu apoyo, consiste en crear una aplicación que permita a nuestros lectores suscribirse a nuestros paquetes de diarios impresos en su versión digital.
 
-In the project directory, you can run:
+Antes de comenzar el proyecto se realizó una investigación en donde se obtuvieron algunas conclusiones que deberías tener en consideración:
 
-### `npm start`
+> - El 75% de las posibles suscripciones se realizarán desde un móvil
+> - Por cada segundo que demora en cargar la aplicación se reduce en 18% la posibilidad de una compra
+> - Se espera que al menos el 35% de compradores provengan de motores de búsqueda.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Indicaciones
+La aplicación deberá ser desarrollada con React, haciendo uso de Redux para mantener el estado de la aplicación y de React-Router para que cada vista sea una página distinta.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Antes de comenzar a escribir el código, deberás crear unas tareas que vas a realizar durante el desarrollo.
+- Haz uso de commit's para detallar cada tarea y/o subtarea
+- Valida el formulario
+- Haz uso de code splitting
+- Sube tu aplicación a Github
 
-### `npm test`
+### UI
+- El concepto de diseño lo encontrarás en el siguiente [link](https://xd.adobe.com/view/95b2cf77-ac47-4c1d-5430-43576b88590e-e383/)
+- La aplicación debe estar orientada hacia el lector/usuario
+- Elige los colores y tipografía que desees y realiza las mejoras que creas conveniente
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Recomendaciones
+- Usa el [create-react-app](https://github.com/facebook/create-react-app)
+- Usa sintaxis de ES6+
+- No abuses de las librerías externas
 
-### `npm run build`
+### Puntos a favor (No Obligatorios)
+- En el README.md explica tus tomas de decisiones, como por ejemplo, porque decidiste usar una librería o el porqué de alguna interacción, etc. Asimismo, detalla mejoras que podrían hacerse para una siguiente versión.
+- Realiza test de tus componentes
+- Despliega tu aplicación usando [Netlify](https://www.netlify.com), [Heroku](https://www.heroku.com), [Zeit](https://zeit.co) o el que desees.
+- La aplicación es una PWA personalizada
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Recuerda
+- Siempre estamos esperando profesionales como tú que nos permitan superar nuestras metas. 🔥
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Nos vemos en la oficina 🚀🔥🚀
