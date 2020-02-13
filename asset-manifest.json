@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Desafio-EC/static/css/main.b20d9bf4.chunk.css",
+    "main.js": "/Desafio-EC/static/js/main.a6880f98.chunk.js",
+    "main.js.map": "/Desafio-EC/static/js/main.a6880f98.chunk.js.map",
+    "runtime-main.js": "/Desafio-EC/static/js/runtime-main.b51f292b.js",
+    "runtime-main.js.map": "/Desafio-EC/static/js/runtime-main.b51f292b.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Desafio-EC/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.b77c0350.chunk.js": "/Desafio-EC/static/js/2.b77c0350.chunk.js",
+    "static/js/2.b77c0350.chunk.js.map": "/Desafio-EC/static/js/2.b77c0350.chunk.js.map",
+    "index.html": "/Desafio-EC/index.html",
+    "precache-manifest.d1195bc7b2ed7398506a7a17c65deaba.js": "/Desafio-EC/precache-manifest.d1195bc7b2ed7398506a7a17c65deaba.js",
+    "service-worker.js": "/Desafio-EC/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Desafio-EC/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.b20d9bf4.chunk.css.map": "/Desafio-EC/static/css/main.b20d9bf4.chunk.css.map",
+    "static/js/2.b77c0350.chunk.js.LICENSE.txt": "/Desafio-EC/static/js/2.b77c0350.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b51f292b.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.b77c0350.chunk.js",
+    "static/css/main.b20d9bf4.chunk.css",
+    "static/js/main.a6880f98.chunk.js"
+  ]
+}
