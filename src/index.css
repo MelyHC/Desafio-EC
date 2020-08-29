@@ -1,116 +1,15 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(234,234,234);
+  background-color: rgb(234, 234, 234);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
-
-.switch {
-  position: relative;
-  margin: 1rem auto;
-  width: 21rem;
-}
-
-.switch input {
-  position: absolute;
-  /* top: 0; */
-  z-index: 2;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.switch input:checked {
-  z-index: 1;
-}
-
-.switch input:checked + label {
-  opacity: 1;
-  cursor: default;
-}
-
-.switch input:not(:checked) + label:hover {
-  opacity: 0.5;
-}
-
-.switch label {
-  opacity: 0.33;
-  transition: opacity 0.25s ease;
-  cursor: pointer;
-}
-
-/* Estilo del background de la rueda */
-.switch .toggle-outside {
-  background-color: white;
-  height: 1.98rem;
-  border-radius: 2rem;
-  padding: 0.25rem;
-  overflow: hidden;
-  transition: 0.25s ease all;
-}
-
-/* Estilo de la rueda */
-.switch .toggle-inside {
-  border-radius: 5rem;
-  background: #680f83;
-  position: absolute;
-  transition: 0.25s ease all;
-}
-
-/* Propiedades de interpretación del puntero */
-.switch--horizontal input {
-  height: 2rem;
-  width: 5.2rem;
-  left: 7.8rem;
-  margin: 0;
-}
-
-.switch--horizontal label {
-  font-size: 1rem;
-  font-weight: bold;
-  display: inline-block;
-  margin: 0.3rem 1rem;
-  text-align: center;
-}
-
-/* Posición con respecto a los labels */
-.switch--horizontal label:last-of-type {
-  margin-left: 5rem;
-}
-
-/* Tamaño del background de la rueda */
-.switch--horizontal .toggle-outside {
-  position: absolute;
-  width: 5rem;
-  left: 7.85rem;
-}
-
-/* Cambiar tamaño de la rueda */
-.switch--horizontal .toggle-inside {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
-/* Transición */
-.switch--horizontal input:checked ~ .toggle-outside .toggle-inside {
-  left: 0.25rem;
-}
-
-/* "Margen" con respecto al paso de la rueda sobre el background */
-.switch--horizontal input ~ input:checked ~ .toggle-outside .toggle-inside {
-  left: 3.2rem;
-}
-

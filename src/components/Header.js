@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = ({ }) => {
+const Header = () => {
   return (
-    <header>
-      <h1>Mag.</h1>
+    <header className="text-center bg-purple p-2">
+      <h3 className="text-lato font-weight-bold">Mag.</h3>
     </header>
   )
 }

@@ -2,25 +2,21 @@
   {
     "type": "Estándar",
     "price": 29,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius lobortis auctor. Vivamus condimentum, lorem eget sagittis luctus, libero nibh vulputate lorem.",
+    "description": "Lorem ipsum dolor sit amet, consectetur sadipiscing elit, sed diam monumy eirmod",
     "pack": [
       1,
-      2,
-      3,
-      4
+      2
     ]
   },
   {
     "type": "Premium",
     "price": 59,
-    "description": "Vivamus pellentesque in lectus eget tincidunt. Integer rhoncus magna imperdiet lacus malesuada, eu aliquam leo vulputate. Pellentesque diam nisi, porttitor nec ultrices vel, tincidunt eu ipsum.",
+    "description": "Lorem ipsum dolor sit amet, consectetur sadipiscing elit, sed diam monumy eirmod",
     "pack": [
       1,
       2,
       3,
-      4,
-      5,
-      6
+      4
     ]
   }
 ]

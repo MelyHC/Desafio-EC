@@ -9,12 +9,17 @@ import dataPlan from './data/plan.json';
 import dataPackPlan from './data/packPlan.json';
 
 class App extends Component {
+
   state = {
-    user: {},
+    user: {
+      name: 'Nombre'
+    },
     currentPlan: {
       name: 'Premium'
     },
-    otherPlan: {},
+    otherPlan: {
+      type: 'Estándar'
+    },
     dataAllPlan: []
   }
 
@@ -34,19 +39,11 @@ class App extends Component {
         otherPlan = objPlan;
       }
 
-      objPlan.pack.forEach((numPlan, i) => {
-
-        packPlan.forEach(descriptionPlan => {
-
-          if (parseInt(numPlan) === parseInt(descriptionPlan.num)) {
-            // numPlan = descriptionPlan;
-            objPlan.pack[i] = descriptionPlan;
-          }
-        })
-      });
+      objPlan.descriptionPlan = packPlan;
 
       return objPlan;
     })
+
 
     this.setState({ dataAllPlan: allData, currentPlan, otherPlan });
   }
@@ -61,21 +58,33 @@ class App extends Component {
     }
   }
 
-  clickSuscriber =(e)=>{}
+  confirmData = (history, e) => {
+    e.preventDefault();
+
+    const { name } = e.target;
+
+    this.setState({
+      user: {
+        name: name.value
+      }
+    });
+
+    history.push('/confirmacion')
+  }
 
   render() {
-    const {currentPlan, otherPlan} = this.state;
+    const { currentPlan, otherPlan, user } = this.state;
+
     return (
       <Router>
         <Switch>
-          {/* <Route path='/' exac render={} /> */}
-          <Route path='/' exac render={() => <Suscription changeTypePlan={this.changePlan} plan={currentPlan} />} />
-          <Route path='/datos' exac render={CreditCard} />
-          <Route path='/confirmacion' exac render={Confirmation} />
+          <Route path='/' exact render={() => <Suscription changeTypePlan={this.changePlan} plan={currentPlan} />} />
+          <Route path='/datos' render={(props) => <CreditCard {...props} changeTypePlan={this.changePlan} confirmData={this.confirmData} plan={currentPlan} otherPlan={otherPlan.type} />} />
+          <Route path='/confirmacion' render={() => <Confirmation name={user.name} plan={currentPlan} />} />
         </Switch>
       </Router>
     );
   }
 }
 
-export default App;
+export default (App);

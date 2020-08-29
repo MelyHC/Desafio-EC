@@ -6,14 +6,16 @@ const Suscription = ({ changeTypePlan, plan }) => {
   return (
     <Fragment>
       <Header />
-      <form onChange={changeTypePlan} className="row m-0 justify-content-center align-aitem-center">
+      <form onChange={changeTypePlan} className="">
         <div className="switch switch--horizontal">
-          <input id="radio-a" value="Estándar" type="radio" name="first-switch" />
+          <input id="radio-a" value="Estándar" type="radio" name="first-switch" readOnly checked={plan.type === "Estándar"} />
           <label htmlFor="radio-a">Plan Estándar</label>
-          <input id="radio-b" value="Premium" type="radio" name="first-switch" defaultChecked />
+          <input id="radio-b" value="Premium" type="radio" name="first-switch" readOnly checked={plan.type === "Premium"} />
           <label htmlFor="radio-b">Plan Premium</label><span className="toggle-outside"><span className="toggle-inside"></span></span>
         </div>
-        <CardSuscription plan={plan}/>
+        <div className="row m-0 pb-3 justify-content-center align-aitem-center">
+          <CardSuscription plan={plan} />
+        </div>
       </form>
     </Fragment>
   )
