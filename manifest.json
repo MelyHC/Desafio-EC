@@ -2,7 +2,7 @@
   "short_name": "Mag",
   "name": "Mag",
   "lang": "es",
-  "start_url": "/?utm_source=web_app_manifest",
+  "start_url": "./?utm_source=web_app_manifest",
   "background_color": "#680f83",
   "theme_color": "#680f83",
   "dir": "ltr",
