@@ -76,7 +76,7 @@ class App extends Component {
     const { currentPlan, otherPlan, user } = this.state;
 
     return (
-      <Router>
+      <Router basename='/Desafio-EC'>
         <Switch>
           <Route path='/' exact render={() => <Suscription changeTypePlan={this.changePlan} plan={currentPlan} />} />
           <Route path='/datos' render={(props) => <CreditCard {...props} changeTypePlan={this.changePlan} confirmData={this.confirmData} plan={currentPlan} otherPlan={otherPlan.type} />} />
